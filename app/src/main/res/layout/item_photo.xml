@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/placeholder_for_missing_posters"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titilliumweb_light"
+        android:layout_marginStart="10dp"
+        android:includeFontPadding="false"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
